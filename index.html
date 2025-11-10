@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة سلطان X-O</title>
+    <!-- ربط ملف التصميم -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>لعبة سلطان الحسن X-O</h1>
+        <div id="gameBoard" class="game-board">
+            <!-- هذه المربعات التسعة هي لوحة اللعب -->
+            <!-- كل مربع له معرف (id) من 0 إلى 8 -->
+            <div class="cell" id="0"></div>
+            <div class="cell" id="1"></div>
+            <div class="cell" id="2"></div>
+            <div class="cell" id="3"></div>
+            <div class="cell" id="4"></div>
+            <div class="cell" id="5"></div>
+            <div class="cell" id="6"></div>
+            <div class="cell" id="7"></div>
+            <div class="cell" id="8"></div>
+        </div>
+        <div id="statusArea">اللاعب الحالي: X</div>
+        <button id="restartButton">إعادة اللعب</button>
+    </div>
+
+    <!-- ربط ملف الجافاسكريبت في نهاية الصفحة لتحميل أسرع -->
+    <script src="script.js"></script>
+</body>
+</html>
